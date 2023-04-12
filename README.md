@@ -1,5 +1,5 @@
 # ML - Previsão utilizando o método de Regressão Linear Múltipla
-# DESAFIO: Prever a produção de carros baseado em suas características, como: motor, cilindradas, consumo do combustível na cidade, consumo do combustível na estrada.
+# DESAFIO: Prever a produção de CO2 de carros baseado em suas características, como: motor, cilindradas, consumo do combustível na cidade, consumo do combustível na estrada.
 Bibliotecas usadas: Pandas, Numpy, scikit-learn/linear_model e pickle
 
 1. Leitura do dataframe e análise da colunas.
