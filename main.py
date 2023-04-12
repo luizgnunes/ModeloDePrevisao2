@@ -16,7 +16,7 @@ regr = linear_model.LinearRegression()
 x_train = np.asanyarray(train[['ENGINESIZE', 'CYLINDERS', 'FUELCONSUMPTION_CITY', 'FUELCONSUMPTION_HWY']])
 y_train = np.asanyarray(train[['CO2EMISSIONS']])
 regr.fit (x_train, y_train)
-print ('Coefficients: ', regr.coef_)
+print ('Coeficiente: ', regr.coef_)
 
 #Teste do modelo e seus resultados de MSE e R-Squared
 y_train= regr.predict(test[['ENGINESIZE', 'CYLINDERS', 'FUELCONSUMPTION_CITY', 'FUELCONSUMPTION_HWY']])
